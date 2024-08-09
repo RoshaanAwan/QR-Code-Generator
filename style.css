@@ -87,26 +87,33 @@ body {
         transform: translateX(0);
         border: 1px solid red;
     }
-    
+
     25% {
         transform: translateX(-2px);
         border: 1px solid red;
     }
-    
+
     50% {
         transform: translateX(0);
         border: 1px solid red;
     }
-    
+
     75% {
         transform: translateX(2px);
         border: 1px solid red;
     }
-    
+
     100% {
         border: 1px solid red;
         transform: translateX(0);
 
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        width: 300px !important;
     }
 
 }
